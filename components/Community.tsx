@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Brain, Leaf, MessageCircle } from 'lucide-react';
 
 const Community = () => {
+	console.log('');
 	return (
 		<div className='flex h-auto w-full justify-center rounded-[24px] md:m-28'>
 			<div className='flex h-full w-[90%] snap-center snap-always flex-col items-center space-y-10 md:flex-row md:space-y-0'>
